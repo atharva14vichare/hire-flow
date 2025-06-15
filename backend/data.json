@@ -35,7 +35,7 @@
       "Teamwork"
     ],
     "rolePreference": "Backend Engineer",
-    "status": "selected"
+    "status": "pending"
   },
   {
     "id": "c3",
@@ -109,7 +109,7 @@
       "Autonomy"
     ],
     "rolePreference": "Backend Engineer",
-    "status": "selected"
+    "status": "pending"
   },
   {
     "id": "c7",
@@ -127,7 +127,7 @@
       "Mentorship"
     ],
     "rolePreference": "Mobile Developer",
-    "status": "pending"
+    "status": "selected"
   },
   {
     "id": "c8",
@@ -164,7 +164,7 @@
       "Scalability"
     ],
     "rolePreference": "DevOps Engineer",
-    "status": "pending"
+    "status": "selected"
   },
   {
     "id": "c10",
@@ -182,7 +182,7 @@
       "Resourcefulness"
     ],
     "rolePreference": "Fullstack Developer",
-    "status": "pending"
+    "status": "selected"
   },
   {
     "id": "c11",
@@ -218,7 +218,7 @@
       "Problem Solving"
     ],
     "rolePreference": "Embedded Engineer",
-    "status": "selected"
+    "status": "pending"
   },
   {
     "id": "c13",
@@ -255,7 +255,7 @@
       "System Administration"
     ],
     "rolePreference": "Cloud Engineer",
-    "status": "selected"
+    "status": "pending"
   },
   {
     "id": "c15",
@@ -273,6 +273,6 @@
       "Project Management"
     ],
     "rolePreference": "eCommerce Developer",
-    "status": "pending"
+    "status": "selected"
   }
 ]
