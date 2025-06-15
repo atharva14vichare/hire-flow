@@ -16,7 +16,7 @@
       "Mentorship"
     ],
     "rolePreference": "Fullstack Developer",
-    "status": "pending"
+    "status": "selected"
   },
   {
     "id": "c2",
@@ -35,7 +35,7 @@
       "Teamwork"
     ],
     "rolePreference": "Backend Engineer",
-    "status": "pending"
+    "status": "selected"
   },
   {
     "id": "c3",
@@ -91,7 +91,7 @@
       "Curiosity"
     ],
     "rolePreference": "Data Scientist",
-    "status": "selected"
+    "status": "pending"
   },
   {
     "id": "c6",
@@ -109,7 +109,7 @@
       "Autonomy"
     ],
     "rolePreference": "Backend Engineer",
-    "status": "pending"
+    "status": "selected"
   },
   {
     "id": "c7",
@@ -127,7 +127,7 @@
       "Mentorship"
     ],
     "rolePreference": "Mobile Developer",
-    "status": "selected"
+    "status": "pending"
   },
   {
     "id": "c8",
