@@ -98,3 +98,50 @@ npm install
 npm start
 
 The frontend application will typically open in your browser at http://localhost:3000. If port 3000 is in use, Create React App will automatically pick the next available port (e.g., 3001, 3002, 3003, etc.). If your frontend runs on a port other than 3000, you MUST update the origin in backend/server.js (e.g., origin: 'http://localhost:3003') and restart your backend.
+
+
+
+
+4. Troubleshooting Ports:
+If you encounter EADDRINUSE errors (port already in use) for either 3000 or 5001:
+
+For Frontend (port 3000/300X): If it picks a new port, update your backend's CORS origin accordingly.
+For Backend (port 5001): You may need to kill the process occupying it. In your terminal, run kill -9 $(lsof -ti:5001) (replace 5001 with the problematic port).
+
+
+
+
+
+
+
+
+5. Usage / Demo Guide
+Once both the backend and frontend are running:
+
+View Candidates: The main page will display all available candidates.
+Filter & Sort: Use the "Filter by Role" and "Sort By" dropdowns to narrow down and organize the candidate list. These filters apply to both available and already selected candidates.
+Select Your Team:
+Click "Select for Team" on candidate cards to add them to your "Selected Team" list on the right.
+You can select up to 5 candidates.
+Click "Unselect" or "Remove" to deselect a candidate.
+Finalize Hiring: Once you have exactly 5 candidates selected, a "Finalize Hiring Team" button will appear. Click it.
+Justify Your Choices: A section will appear prompting you to explain your hiring rationale. This is where you demonstrate your strategic thinking:
+Diversity: How did you ensure a diverse team (considering experience, skills, and the diversityScore)?
+Skill Set Balance: Did you pick a mix of Frontend, Backend, DevOps, Data, etc., to cover startup needs?
+Experience Levels: A blend of senior leadership and promising junior talent?
+Soft Skills: How do their soft skills contribute to team cohesion and company culture?
+Problem Statement Alignment: How do these 5 specific individuals position the startup to "win the market and make your investors happy"?
+
+
+
+
+
+
+
+
+
+
+
+6. Example Justification (for inspiration):
+
+"My selected team of 5 individuals is strategically balanced for our startup's rapid growth phase. It comprises Alice Wonderland (Fullstack, 7 yrs, high diversity) for core product development and mentorship, Diana Prince (Backend, 10 yrs) to lead our scalable infrastructure, Grace Hopper (Mobile, 9 yrs, highest diversity) to drive our mobile-first strategy, Charlie Chaplin (Frontend, 3 yrs) for fresh UI/UX perspectives and growth, and Noah Wyle (Cloud, 7 yrs) to ensure our cloud architecture is robust and efficient. This blend provides a strong technical foundation, diverse viewpoints critical for innovation, and a mix of leadership with promising new talent, enabling us to build quickly and thoughtfully."
