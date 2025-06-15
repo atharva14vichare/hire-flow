@@ -1,0 +1,278 @@
+[
+  {
+    "id": "c1",
+    "name": "Alice Wonderland",
+    "experienceYears": 7,
+    "skills": [
+      "React",
+      "Node.js",
+      "GraphQL",
+      "AWS"
+    ],
+    "education": "MS Computer Science, Stanford",
+    "diversityScore": 4,
+    "softSkills": [
+      "Leadership",
+      "Mentorship"
+    ],
+    "rolePreference": "Fullstack Developer",
+    "status": "pending"
+  },
+  {
+    "id": "c2",
+    "name": "Bob Thebuilder",
+    "experienceYears": 5,
+    "skills": [
+      "Python",
+      "Django",
+      "SQL",
+      "Azure"
+    ],
+    "education": "BS Software Engineering, MIT",
+    "diversityScore": 3,
+    "softSkills": [
+      "Problem Solving",
+      "Teamwork"
+    ],
+    "rolePreference": "Backend Engineer",
+    "status": "pending"
+  },
+  {
+    "id": "c3",
+    "name": "Charlie Chaplin",
+    "experienceYears": 3,
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "UI/UX"
+    ],
+    "education": "Associate's Web Design",
+    "diversityScore": 5,
+    "softSkills": [
+      "Creativity",
+      "Attention to Detail"
+    ],
+    "rolePreference": "Frontend Developer",
+    "status": "pending"
+  },
+  {
+    "id": "c4",
+    "name": "Diana Prince",
+    "experienceYears": 10,
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "Kafka"
+    ],
+    "education": "PhD Computer Science, UC Berkeley",
+    "diversityScore": 4,
+    "softSkills": [
+      "Strategic Thinking",
+      "Communication"
+    ],
+    "rolePreference": "Backend Engineer",
+    "status": "pending"
+  },
+  {
+    "id": "c5",
+    "name": "Eve Harrington",
+    "experienceYears": 2,
+    "skills": [
+      "Python",
+      "Data Analysis",
+      "Machine Learning"
+    ],
+    "education": "BS Data Science",
+    "diversityScore": 3,
+    "softSkills": [
+      "Analytical Skills",
+      "Curiosity"
+    ],
+    "rolePreference": "Data Scientist",
+    "status": "selected"
+  },
+  {
+    "id": "c6",
+    "name": "Frankenstein Monster",
+    "experienceYears": 6,
+    "skills": [
+      "C#",
+      ".NET",
+      "Azure DevOps"
+    ],
+    "education": "BS Computer Engineering",
+    "diversityScore": 2,
+    "softSkills": [
+      "Persistence",
+      "Autonomy"
+    ],
+    "rolePreference": "Backend Engineer",
+    "status": "pending"
+  },
+  {
+    "id": "c7",
+    "name": "Grace Hopper",
+    "experienceYears": 9,
+    "skills": [
+      "React Native",
+      "TypeScript",
+      "Mobile Development"
+    ],
+    "education": "MS Software Engineering",
+    "diversityScore": 5,
+    "softSkills": [
+      "Innovation",
+      "Mentorship"
+    ],
+    "rolePreference": "Mobile Developer",
+    "status": "selected"
+  },
+  {
+    "id": "c8",
+    "name": "Harry Potter",
+    "experienceYears": 1,
+    "skills": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "education": "Bootcamp Graduate",
+    "diversityScore": 4,
+    "softSkills": [
+      "Quick Learner",
+      "Enthusiasm"
+    ],
+    "rolePreference": "Junior Frontend Developer",
+    "status": "pending"
+  },
+  {
+    "id": "c9",
+    "name": "Ivy League",
+    "experienceYears": 8,
+    "skills": [
+      "Go",
+      "Kubernetes",
+      "Docker",
+      "GCP"
+    ],
+    "education": "BS Computer Science",
+    "diversityScore": 3,
+    "softSkills": [
+      "System Design",
+      "Scalability"
+    ],
+    "rolePreference": "DevOps Engineer",
+    "status": "pending"
+  },
+  {
+    "id": "c10",
+    "name": "Jack Sparrow",
+    "experienceYears": 4,
+    "skills": [
+      "PHP",
+      "Laravel",
+      "MySQL"
+    ],
+    "education": "BS Information Technology",
+    "diversityScore": 2,
+    "softSkills": [
+      "Adaptability",
+      "Resourcefulness"
+    ],
+    "rolePreference": "Fullstack Developer",
+    "status": "pending"
+  },
+  {
+    "id": "c11",
+    "name": "Kate Winslet",
+    "experienceYears": 6,
+    "skills": [
+      "Vue.js",
+      "Firebase",
+      "Node.js"
+    ],
+    "education": "BS Web Development",
+    "diversityScore": 5,
+    "softSkills": [
+      "Collaboration",
+      "Detail-oriented"
+    ],
+    "rolePreference": "Frontend Developer",
+    "status": "pending"
+  },
+  {
+    "id": "c12",
+    "name": "Liam Neeson",
+    "experienceYears": 12,
+    "skills": [
+      "C++",
+      "Embedded Systems",
+      "Robotics"
+    ],
+    "education": "PhD Electrical Engineering",
+    "diversityScore": 1,
+    "softSkills": [
+      "Precision",
+      "Problem Solving"
+    ],
+    "rolePreference": "Embedded Engineer",
+    "status": "selected"
+  },
+  {
+    "id": "c13",
+    "name": "Mia Khalifa",
+    "experienceYears": 3,
+    "skills": [
+      "Ruby on Rails",
+      "PostgreSQL",
+      "JavaScript"
+    ],
+    "education": "BS Computer Science",
+    "diversityScore": 4,
+    "softSkills": [
+      "Agile Mindset",
+      "Communication"
+    ],
+    "rolePreference": "Backend Developer",
+    "status": "pending"
+  },
+  {
+    "id": "c14",
+    "name": "Noah Wyle",
+    "experienceYears": 7,
+    "skills": [
+      "AWS",
+      "Terraform",
+      "Ansible",
+      "Linux"
+    ],
+    "education": "MS Network Engineering",
+    "diversityScore": 3,
+    "softSkills": [
+      "Troubleshooting",
+      "System Administration"
+    ],
+    "rolePreference": "Cloud Engineer",
+    "status": "selected"
+  },
+  {
+    "id": "c15",
+    "name": "Olivia Newton",
+    "experienceYears": 4,
+    "skills": [
+      "Shopify Development",
+      "eCommerce",
+      "Liquid"
+    ],
+    "education": "Self-Taught",
+    "diversityScore": 5,
+    "softSkills": [
+      "Client-facing",
+      "Project Management"
+    ],
+    "rolePreference": "eCommerce Developer",
+    "status": "pending"
+  }
+]
