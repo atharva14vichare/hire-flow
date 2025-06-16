@@ -145,7 +145,7 @@
       "Enthusiasm"
     ],
     "rolePreference": "Junior Frontend Developer",
-    "status": "pending"
+    "status": "selected"
   },
   {
     "id": "c9",
@@ -164,7 +164,7 @@
       "Scalability"
     ],
     "rolePreference": "DevOps Engineer",
-    "status": "selected"
+    "status": "pending"
   },
   {
     "id": "c10",
@@ -182,7 +182,7 @@
       "Resourcefulness"
     ],
     "rolePreference": "Fullstack Developer",
-    "status": "selected"
+    "status": "pending"
   },
   {
     "id": "c11",
@@ -200,7 +200,7 @@
       "Detail-oriented"
     ],
     "rolePreference": "Frontend Developer",
-    "status": "pending"
+    "status": "selected"
   },
   {
     "id": "c12",
@@ -255,7 +255,7 @@
       "System Administration"
     ],
     "rolePreference": "Cloud Engineer",
-    "status": "pending"
+    "status": "selected"
   },
   {
     "id": "c15",
@@ -273,6 +273,6 @@
       "Project Management"
     ],
     "rolePreference": "eCommerce Developer",
-    "status": "selected"
+    "status": "pending"
   }
 ]

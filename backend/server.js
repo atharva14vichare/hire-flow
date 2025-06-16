@@ -9,7 +9,7 @@ const PORT = 5001;
 const HOST = '0.0.0.0'; // Explicitly bind to all interfaces
 
 app.use(cors({
-    origin: 'http://localhost:3000', // Ensure this matches your FE's port
+    origin: 'http://localhost:3000', 
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type'],
     optionsSuccessStatus: 204
@@ -22,17 +22,16 @@ const dataFilePath = path.join(__dirname, 'data.json');
 // Helper function to read data
 const readCandidates = () => {
     try {
-        console.log(`Backend: Attempting to read data from: ${dataFilePath}`); // New log
+        console.log(`Backend: Attempting to read data from: ${dataFilePath}`); 
         const data = fs.readFileSync(dataFilePath, 'utf8');
-        console.log('Backend: Successfully read raw data.json content.'); // New log
+        console.log('Backend: Successfully read raw data.json content.'); 
         const parsedData = JSON.parse(data);
-        console.log(`Backend: Successfully parsed data.json. Found ${parsedData.length} candidates.`); // New log
+        console.log(`Backend: Successfully parsed data.json. Found ${parsedData.length} candidates.`); 
         return parsedData;
     } catch (error) {
-        console.error('Backend: CRITICAL ERROR reading or parsing data.json:', error); // Emphasize critical error
-        // Important: If data.json is truly bad, let's make it obvious.
-        // process.exit(1); // Consider exiting process if data is unreadable, for clear failure.
-        return []; // Keep returning empty array for now to avoid crashing the server.
+        console.error('Backend: CRITICAL ERROR reading or parsing data.json:', error); 
+        
+        return []; 
     }
 };
 
@@ -71,8 +70,8 @@ app.post('/api/candidates/update-status', (req, res) => {
     }
 });
 
-// Explicitly define host and port for listen
-app.listen(PORT, HOST, () => { // <--- Changed app.listen
+
+app.listen(PORT, HOST, () => { 
     console.log(`Server running on http://${HOST}:${PORT}`);
     console.log(`CORS configured to allow requests from http://localhost:3000`);
     console.log('Backend: Server started successfully. Ready to receive requests.'); // Final confirmation log
